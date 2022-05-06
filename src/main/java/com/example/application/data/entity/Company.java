@@ -31,4 +31,5 @@ public class Company extends AbstractEntity {
     public void setEmployees(List<Contact> employees) {
         this.employees = employees;
     }
+
 }
