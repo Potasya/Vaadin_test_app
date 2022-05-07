@@ -18,7 +18,7 @@ import javax.annotation.security.PermitAll;
 
 @PermitAll
 @Route(value="", layout = MainLayout.class)
-@PageTitle("Contacts | Vaadin CRM")
+@PageTitle("Contacts | Arthurka is the best")
 @org.springframework.stereotype.Component
 @Scope("prototype")
 public class ListView extends VerticalLayout {

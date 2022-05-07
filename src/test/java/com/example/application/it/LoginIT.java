@@ -14,8 +14,8 @@ public class LoginIT extends AbstractTest {
         // Find the LoginForm used on the page
         LoginFormElement form = $(LoginFormElement.class).first();
         // Enter the credentials and log in
-        form.getUsernameField().setValue("user");
-        form.getPasswordField().setValue("userpass");
+        form.getUsernameField().setValue("arthurka");
+        form.getPasswordField().setValue("thebest");
         form.getSubmitButton().click();
         // Ensure the login form is no longer visible
         Assert.assertFalse($(LoginFormElement.class).exists());

@@ -18,7 +18,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 @SpringBootApplication
 @Theme(value = "flowcrmtutorial")
 @PWA(
-        name = "Vaadin CRM",
+        name = "Arthurka is the best",
         shortName = "CRM",
         offlinePath="offline.html",
         offlineResources = { "./images/offline.png"}
